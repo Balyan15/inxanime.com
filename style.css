@@ -1,0 +1,17 @@
+body{margin: 0%;
+    padding: 0%;}
+
+#box{height: 30%;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+@keyframes anime{
+
+    from{width: 50%;}
+    to{width: 100%;}
+}
